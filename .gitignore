@@ -1,44 +1,15 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# SQLite database files
-*.db
-
-# Model artifacts
-*.pkl
-*.joblib
-*.h5
-
-# Data files
-/data/*.csv
-/data/*.xlsx
-/data/*.json
-
-# Notebooks checkpoints
+# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-# VS Code settings
-.vscode/
+# Ignore virtual environments
+venv/
 
-# Jupyter Notebook metadata
-*.nbconvert.ipynb
+# Ignore database
+*.db
 
-# Environment files
-.env
-*.env
-.env.*
+# Ignore raw data
+*.csv
 
-# OS files
+# Ignore system files
 .DS_Store
 Thumbs.db
-
-# Logs and outputs
-*.log
-*.out
-
-# Temporary files
-*.tmp
-*.bak
-~$*
